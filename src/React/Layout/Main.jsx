@@ -7,6 +7,7 @@ const Main = () => {
     return (
         <MainStyled className='Main'>
             Main 
+            <Homework />
         </MainStyled>
     );
 }

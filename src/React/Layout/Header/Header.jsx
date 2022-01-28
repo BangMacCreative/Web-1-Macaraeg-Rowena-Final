@@ -1,0 +1,42 @@
+import React from 'react';
+import styled from 'styled-components';
+import Logo from './Logo.jsx'
+import SiteTitle from './SiteTitle.jsx'
+const Header = () => {
+
+    return (
+        <HeaderStyled className='Header'>
+        <div className="row">
+           <Logo/>
+           <SiteTitle/>
+           </div>
+        </HeaderStyled>
+    );
+}
+
+export default Header;
+
+const HeaderStyled = styled.header`
+    background-color: teal;
+    padding: 20px 0px;
+    display: Flex;
+    justify-content: center;
+    
+    .row {
+        display: flex;
+        width 420px;
+        align-items: center;
+
+        .Logo {
+            outline: solid 1px white;
+            flex: 1;
+            padding-right: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .SiteTitle {
+            outline: solid 1px white;
+            flex 3;
+        }
+    }
+`;

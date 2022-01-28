@@ -12,6 +12,6 @@ const Header = () => {
 
 export default Header;
 
-const HeaderStyled = styled.div`
+const HeaderStyled = styled.header`
     
 `;

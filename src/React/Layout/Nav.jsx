@@ -12,6 +12,6 @@ const Nav = () => {
 
 export default Nav;
 
-const NavStyled = styled.div`
+const NavStyled = styled.nav`
     
 `;

@@ -14,6 +14,6 @@ const Main = () => {
 
 export default Main;
 
-const MainStyled = styled.div`
+const MainStyled = styled.main`
     
 `;

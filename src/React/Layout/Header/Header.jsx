@@ -28,14 +28,12 @@ const HeaderStyled = styled.header`
         align-items: center;
 
         .Logo {
-            outline: solid 1px white;
             flex: 1;
             padding-right: 20px;
             display: flex;
             align-items: center;
         }
         .SiteTitle {
-            outline: solid 1px white;
             flex 3;
         }
     }

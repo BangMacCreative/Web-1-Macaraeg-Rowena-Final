@@ -13,22 +13,18 @@ const Main = () => {
     return (
          <MainStyled className='Main'>
             <Switch>
-                <Route path='/'exact>
+                <Route path='/'>
                     <Welcome />
                 </Route>
-    
                 <Route path='/services'>
                     <Services />
                 </Route>
-
                 <Route path='/contact'>
                     <Contact />
                 </Route>
-
                 <Route path='/login'>
                     <Login />
                 </Route>
-
                 <Route path='/homework'>
                     <Homework />
                 </Route>

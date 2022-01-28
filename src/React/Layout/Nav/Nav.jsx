@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import MainMenu from './MainMenu.jsx';
+
 const Nav = () => {
 
     return (
         <NavStyled className='Nav'>
-            Nav 
+            <MainMenu /> 
         </NavStyled>
     );
 }

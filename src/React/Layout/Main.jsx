@@ -13,7 +13,7 @@ const Main = () => {
     return (
          <MainStyled className='Main'>
             <Switch>
-                <Route path='/'>
+                <Route path='/' exact>
                     <Welcome />
                 </Route>
                 <Route path='/services'>

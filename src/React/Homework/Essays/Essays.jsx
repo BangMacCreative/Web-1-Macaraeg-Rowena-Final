@@ -26,6 +26,13 @@ const Essays = () => {
                 <p>In a single page application, when you first come to the website, your browser downloads a small program in Javascript. Your browser saves the application and starts to run it. It is a complete application, as if you had installed a smaller application on your computer, except that this is in your browser. </p>
                 <p>Once it is running, you don’t need to reload that page anymore. That little javascript program is going to control everything on your screen. If it needs to, it will communicate to the web server and get the information you need without reloading the page. That’s why it’s called a single page application - there’s no need to refresh the page, it just loads one time. That saves a lot of bandwidth and time. It’s a much faster and more fluid experience, but it is more difficult to build.</p>
             </Essay>
+
+            <Essay q='S5. What is the difference between Web Designer, Front End Developer and Back End Developer?'>
+                <p>A web designer is a graphic artist who is responsible for how a website is used, its layout, and visual appearance. A web designer’s goal is to make a site user friendly, visually appealing and encourages visitors to stay on the site of as long as possible. Different types of web designers focus on different aspect of the web experience. These are: User Experience (UX), User Interface (UI) and Visual Design.</p>
+                <p>Front End Web Developers take the concepts laid out by web designers and turn them into real fully-functioning websites. Front end web developers build core structure of the website using coding and programming languages. This includes building its user-facing features as well as configuring the server and databases on the back end. </p>
+                <p>Back End Web Developers use advanced programming languages like SQL, Ruby, Java, C#, and PHP. They mainly work on the server-side aspects of the website that are happening behind the scenes - those that visitors don’t see on the front end. </p>
+            </Essay>
+
         </EssaysStyled>
     )
 }

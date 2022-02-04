@@ -5,7 +5,7 @@ const Services = () => {
 
     return (
         <ServicesStyled className='Services'>
-            Services 
+        <h1>    Services </h1>
         </ServicesStyled>
     );
 }

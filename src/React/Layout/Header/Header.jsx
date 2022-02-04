@@ -6,10 +6,10 @@ const Header = () => {
 
     return (
         <HeaderStyled className='Header'>
-        <div className="row">
-           <Logo/>
-           <SiteTitle/>
-           </div>
+            <div className="row">
+                <Logo/>
+                <SiteTitle/>
+            </div>
         </HeaderStyled>
     );
 }
@@ -19,7 +19,7 @@ export default Header;
 const HeaderStyled = styled.header`
     background-color: teal;
     padding: 20px 0px;
-    display: Flex;
+    display: flex;
     justify-content: center;
     
     .row {

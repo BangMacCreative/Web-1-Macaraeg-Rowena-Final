@@ -5,7 +5,7 @@ const Welcome = () => {
 
     return (
         <WelcomeStyled className='Welcome'>
-            Welcome 
+            <h1>Welcome </h1>
         </WelcomeStyled>
     );
 }

@@ -5,7 +5,7 @@ const Contact = () => {
 
     return (
         <ContactStyled className='Contact'>
-            Contact 
+            <h1>Contact </h1>
         </ContactStyled>
     );
 }

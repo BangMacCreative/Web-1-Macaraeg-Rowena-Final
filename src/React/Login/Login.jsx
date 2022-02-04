@@ -5,7 +5,7 @@ const Login = () => {
 
     return (
         <LoginStyled className='Login'>
-            Login 
+        <h1>    Login </h1>
         </LoginStyled>
     );
 }

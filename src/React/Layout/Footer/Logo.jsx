@@ -15,6 +15,7 @@ const Logo = () => {
 export default Logo;
 
 const LogoStyled = styled.div`
-    width: 100%; 
-    height: 100%;
+    svg.hot-tub-icon {
+        width: 30px;
+    }
 `;

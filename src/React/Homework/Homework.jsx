@@ -7,6 +7,7 @@ import Essays from'./Essays/Essays.jsx';
 const Homework = () => { 
     return (
         <HomeworkStyled>
+            <h1>Homework</h1>
             <SunAndMoon />
             <Essays />
         </HomeworkStyled>)
@@ -15,6 +16,5 @@ const Homework = () => {
 export default Homework;
 
 const HomeworkStyled = styled.div`
-background-color: gray;
-padding:20px;
+
 `;

@@ -33,9 +33,12 @@ const Essays = () => {
                 <p>Back End Web Developers use advanced programming languages like SQL, Ruby, Java, C#, and PHP. They mainly work on the server-side aspects of the website that are happening behind the scenes - those that visitors don’t see on the front end. </p>
             </Essay>
             <Essay q='S6. Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
-                <p>Absolute paths contain the complete URL of the linked file for example (http://mysite.com/images/image 1.jpg). It is best practice to use relative paths when possible so that your web pages will not be bound to the URL you are using to build your site. All of your links will work on your own computer and any changes to your domain.</p>
+                <p>Absolute paths contain the complete URL of the linked file for example (http://mysite.com/images/image 1.jpg). It is best practice to use relative paths when possible so that your web pages will not be bound to the URL you are currently using to build your site. All of your links will work on your own computer and any changes to your domain.</p>
                 <p>Document-relative paths are best used for local links. They are especially useful when the current file and the linked file are in the same folder and will likely stay together. The basic idea of document relative paths is to omit the part of the absolute path that is the same for both files and using only the part that is different. Two dots move you up the directory while each forward slash moves you down the directory.</p>
                 <p>A site root relative path describes the root folder and the file itself. It is the best way to specify links if you are moving HTML files from one folder to another in your website. As long as the HTML file stays in the root folder the links stay valid.</p>
+            </Essay>
+            <Essay q='S7. Explain the difference between jpg, gif, png and SVG images.'>
+
             </Essay>
         </EssaysStyled>
     )

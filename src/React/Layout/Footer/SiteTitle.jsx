@@ -6,7 +6,7 @@ const SiteTitled = () => {
     return (
         <SiteTitledStyled className='SiteTitled'>
             <h2>Spa Sanctuary :: A SPA for Every Occasion</h2>
-            <div classname="copyright">&copy; 2022. All rights reserved.</div>
+            <div className="copyright">&copy; 2022. All rights reserved.</div>
         </SiteTitledStyled>
     );
 }

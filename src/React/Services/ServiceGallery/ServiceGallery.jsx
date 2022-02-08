@@ -3,12 +3,15 @@ import styled from 'styled-components';
 
 import ServiceGalleryItem from './ServiceGalleryItem.jsx';
 
-const ServiceGallery = () => {
+const ServiceGallery = ({services}) => {
 
     return (
         <ServiceGalleryStyled className='ServiceGallery'>
-            ServiceGallery  
-            <ServiceGalleryItem />
+           {
+               services.map((service, idx) => {
+                    return <ServiceGalleryItem key={ idx } service={ service }/>
+                })
+            }
         </ServiceGalleryStyled>
     );
 }

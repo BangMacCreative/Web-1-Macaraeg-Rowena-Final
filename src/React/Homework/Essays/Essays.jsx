@@ -38,8 +38,14 @@ const Essays = () => {
                 <p>A site root relative path describes the root folder and the file itself. It is the best way to specify links if you are moving HTML files from one folder to another in your website. As long as the HTML file stays in the root folder the links stay valid.</p>
             </Essay>
             <Essay q='S7. Explain the difference between jpg, gif, png and SVG images.'>
-
+                <p>Jpg’s are raster files that  have compression ratio of 10:1 which allows storing and sharing of images easier. Compression rate is determined by the user and can result in loss of image quality. The gif file format has a special feature that allows it to hold multiple images and load them sequentially so they appear “animated” like a flip book. </p>
+                <p>Png’s have a pixel-to-pixel compression that retains the original image quality. Because of this png file sizes can be quite large. The main advantage of png’s is that they have a transparent image background. </p>
+                <p>SVG’s are vector graphics files that are saved as XML text files. SVG’s can be scaled without losing quality and SVG files can be searched, indexed, scripted, and compressed. The XML text files can be edited with text editors or vector graphics editors, and are rendered by most web browsers.</p>
             </Essay>
+            <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX Designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
+                <p>Answer will go here for Monday.</p>
+            </Essay>
+'
         </EssaysStyled>
     )
 }

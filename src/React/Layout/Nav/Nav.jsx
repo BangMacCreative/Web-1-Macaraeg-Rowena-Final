@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
 /* Scripts ---------------------------*/
@@ -11,14 +11,22 @@ import MainMenu from './MainMenu.jsx';
 const Nav = () => {
 
     const { media } = useMediaQuery ();
+    const [showMenu, showMenuUpdate] = useState(false);
 
     return (
         <NavStyled className='Nav'>
             {
                 !media.mdUp &&
-                <Hamburger />
+                <Hamburger showMenu={showMenu } showMenuUpdate={ showMenuUpdate } />
             }
-            <MainMenu /> 
+            {
+                showMenu &&
+                 <MainMenu /> 
+            }
+            {
+                    (media.mdUp || showMenu) &&
+                    <MainMenu showMenuUpdate={ showMenuUpdate }/>
+            }
         </NavStyled>
     );
 }

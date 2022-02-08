@@ -5,15 +5,19 @@ import {NavLink} from 'react-router-dom';
 /* Scripts ---------------------------*/
 import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
 
-const MainMenu = () => {
+const MainMenu = ({showMenuUpdate}) => {
+
+    const clickHandler = () => {
+        showMenuUpdate(false);
+    }
 
     return (
         <MainMenuStyled className='MainMenu'>
-            <NavLink to={'/'}>Welcome</NavLink>
-            <NavLink to={'/services'}>Services</NavLink>
-            <NavLink to={'/contact'}>Contact</NavLink>
-            <NavLink to={'/login'}>Login</NavLink>
-            <NavLink to={'/homework'}>Homework</NavLink>
+            <NavLink onClick={ clickHandler } to={'/'}>Welcome</NavLink>
+            <NavLink onClick={ clickHandler } to={'/services'}>Services</NavLink>
+            <NavLink onClick={ clickHandler } to={'/contact'}>Contact</NavLink>
+            <NavLink onClick={ clickHandler } to={'/login'}>Login</NavLink>
+            <NavLink onClick={ clickHandler } to={'/homework'}>Homework</NavLink>
         </MainMenuStyled>
     );
 }

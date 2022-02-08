@@ -14,8 +14,8 @@ const Staff = () => {
             <h3>Staff</h3>
             <div className="wrapper">
                 {
-                staffData.map((member) => {
-                    return <StaffMember member={ member } />
+                staffData.map((member, idx) => {
+                    return <StaffMember key={ idx } member={ member } />
                 })
             }
             </div>

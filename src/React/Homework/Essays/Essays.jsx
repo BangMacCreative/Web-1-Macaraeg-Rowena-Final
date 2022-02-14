@@ -11,7 +11,7 @@ const Essays = () => {
                <p>Version control allows developers to track and manage changes to a software project’s code. As a software project grows, version control becomes essential. Take for example a website for this class. If different students were working on different parts of the website, it wouldn’t be safe or efficient to have them directly edit the “official” source code. Instead, version control allows teammates to work safely through branching and merging. With branching, a developer duplicates part of the source code (called the repository). The developer can then safely make changes to that part of the code without affecting the rest of the project.</p>
                <p>Git is a specific open-source version control system created by Linus Torvald in 2005. It is a distributed version control system which means the entire codebase and history is available on every developer’s computer – allowing for easy branching and merging. In addition to being distributed, Git has been designed with performance, security, and flexibility in mind.</p>
                <p>Github is a for-profit company that offers a cloud-based Git repository hosting service. It makes it a lot easier for individuals and teams to use Git for version control and collaboration. Github’s interface is user-friendly enough so that even novice coders can take advantage of Git. On Github, anyone can sign up and has a public code repository for free.
-</p>
+                </p>        
                <p>Heroku is a cloud platform that lets developers build, deliver, and monitor simple applications without the need to install in-house hardware and software. It is known for running apps in dynos - which are virtual computers which can be powered up or down based on how big your application is. Heroku then charges you by the dyno. </p>
                <p>Heroku was built by developers for developers, so the experience is easy to navigate. It is open and extensible so developers can build in whatever language they choose (Nodejs, Ruby, PHP, Python, or Java). Heroku also has a huge network of Add-on features and functionalities that can be deployed with the click of a button. Some of these are free and other are paid, but they can shave hours off a project.</p>
             </Essay>
@@ -44,9 +44,9 @@ const Essays = () => {
             </Essay>
             <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX Designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
                 <p>PROJECT MANAGER: Web project managers manage the delivery of digital projects. They set the budget, scope and schedule; set deadlines and delegate tasks to team members, report the status of the project to stakeholders, address bottlenecks, work with team members to resolve issues, and helps present the final website or app to project executives.
-</p>
+                </p>
                 <p>BUSINESS ANALYST: Business analysts dive into understanding the client’s business needs as it relates to the online world. They're heavily involved in the website design process to make sure that it delivers on the client’s business objectives. Using detailed specification documents, user stories, or prototypes, the business analyst can create a clear view of the requirements that the website or app needs to fulfill. A Business analyst will have experience working with content management systems, and have a general understanding about the best practices involved with user-experience (UX) design, search engine marketing and optimization.
-</p>
+                </p>
                 <p>SCRUM MASTER: The Scrum method is part of Agile software development where a development team sets goals to deliver new software features and functionality in well-defined, iterative cycles. Each iteration delivers small, but significant, parts of an overall project every two to four weeks. A Scrum master ensures that the Scrum team follows the processes that they agreed to follow. Also, the Scrum master removes obstacles and distractions that may impede the team from meeting goals and is the liaison between the Scrum team and people or teams outside the Scrum team.</p>
                 <p>UX Designer: A UX Designer’s job is to advocate for the user and assure that the website provides a seamless experience that achieves what the client is trying to do (e.g. selling products online). UX designers are not responsible for the visual design of a website or app. They are focused on the journey that the user takes and how the website is structured to facilitate this journey. Some of their tasks include: conducting user research, creating user personas, developing the information architecture of a site, designing user flows and wireframes, creating prototypes, and conducting user testing</p>
                 <p>Web Developer/Engineer: a web developer is responsible for taking a website design and building its core structure with using code and programming languages. They take the concepts laid out by team members and develop a real, live, fully-functioning website. Web Developers can be specialized as front end, back end, or full stack.</p>
@@ -55,7 +55,15 @@ const Essays = () => {
             </Essay>
                
             <Essay q='S9. What is considered the right size for an image or video asset?'>
-        
+                <p> The right size for an image depends on its purpose. We need to take into consideration what the image is being used for, how large the file should be, and what type of image should be used for different parts of the site. Below are recommended 72 ppi jpeg (sRGB) sizes for different content types.</p>
+                <ul>• Full width images: 2400 x 1600 px, 1600 px minimum</ul>
+                <ul>• Inside content images: horizontal - max width 1500 px , vertical - max width 1000px</ul>
+                <ul>• Slideshow galleries: images to be same height max 1500 px whether portrait or landscape format</ul>
+                <ul>• Blog Post images: images to be same width max 1500 px whether portrait or landscape</ul>
+                <p>Videos are preferably MP4 files that are no bigger than 400kb, but can be up to 1mb. It’s best to keep videos as short as possible (no longer than 12 seconds). Videos can be self-hosted by uploading the file to a website server just as you would an image. However, video files tend to be large and can strain or slow down your site. It is more common to host videos on a third party site like Vimeo and embed the code as an Inline or Lightbox player. </p>
+            </Essay>
+
+            <Essay q='S10.What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
             </Essay>
 '
         </EssaysStyled>

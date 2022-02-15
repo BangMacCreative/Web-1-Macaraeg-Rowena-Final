@@ -64,7 +64,9 @@ const Essays = () => {
             </Essay>
 
             <Essay q='S10.What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
+                <p> Answer goes here </p>
             </Essay>
+                
 '
         </EssaysStyled>
     )

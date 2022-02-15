@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
+import ActiveArea from './ActiveArea.jsx';
+import Modal from './Modal/Modal.jsx';
 const Lightbox = ({title, activeContent, modalContent}) => {
+
+    const [showModal, showModalUpdate] = useState (false);
 
     return (
         <LightboxStyled className='Lightbox'>
-            <h3>Lightbox</h3>
-            {activeContent} 
-            {title}
-            {modalContent}
+            <h3>Lightbox</h3>     
+            <ActiveArea activeContent={ activeContent } showModalUpdate={ showModalUpdate }/> 
+            {
+                showModal &&
+            <Modal title={ title } modalContent={ modalContent } showModalUpdate={showModalUpdate}/>
+            }
         </LightboxStyled>
     );
 }

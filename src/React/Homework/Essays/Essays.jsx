@@ -64,10 +64,20 @@ const Essays = () => {
             </Essay>
 
             <Essay q='S10.What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
-                <p> Answer goes here </p>
+                <p> Pros: </p>
+                <ol>
+                    <li>Allows for revisits and rewrites to achieve desired result </li>
+                    <li>Projects are tested in flight, allowing faster delivery and better project </li>
+                    <li>Frequent delivery allows for quick changes in direction while maintaining project goals </li>
+                </ol>
+                <p> Cons: </p>
+                <ul>
+                    <li> No strict schedule </li>
+                    <li> Changing requirements may cause problems in other areas</li>
+                    <li> Requires consistent team. Changing team members could result in wasted time and money </li>
+                </ul>
             </Essay>
                 
-'
         </EssaysStyled>
     )
 }

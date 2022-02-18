@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Dark = () => {
+const Dark = ({closeModal}) => {
 
     return (
-        <DarkStyled className='Dark'>
+        <DarkStyled className='Dark' onClick={ closeModal }>
             Dark 
         </DarkStyled>
     );

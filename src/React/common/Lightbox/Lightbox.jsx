@@ -8,8 +8,7 @@ const Lightbox = ({title, activeContent, modalContent}) => {
     const [showModal, showModalUpdate] = useState (false);
 
     return (
-        <LightboxStyled className='Lightbox'>
-            <h3>Lightbox</h3>     
+        <LightboxStyled className='Lightbox'>   
             <ActiveArea activeContent={ activeContent } showModalUpdate={ showModalUpdate }/> 
             {
                 showModal &&

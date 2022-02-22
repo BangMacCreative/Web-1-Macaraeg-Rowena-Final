@@ -55,21 +55,17 @@ const Essays = () => {
             </Essay>
                
             <Essay q='S9. What is considered the right size for an image or video asset?'>
-                <p> The right size for an image depends on its purpose. We need to take into consideration what the image is being used for, how large the file should be, and what type of image should be used for different parts of the site. Below are recommended 72 ppi jpeg (sRGB) sizes for different content types.</p>
-                <ul>• Full width images: 2400 x 1600 px, 1600 px minimum</ul>
-                <ul>• Inside content images: horizontal - max width 1500 px , vertical - max width 1000px</ul>
-                <ul>• Slideshow galleries: images to be same height max 1500 px whether portrait or landscape format</ul>
-                <ul>• Blog Post images: images to be same width max 1500 px whether portrait or landscape</ul>
+                <p> The right size for an image depends on its purpose. We need to take into consideration what the image is being used for, how large the file should be, and what type of image should be used for different parts of the site. The right size image allows for the fastest upload without sacrificing image quality.</p>
                 <p>Videos are preferably MP4 files that are no bigger than 400kb, but can be up to 1mb. It’s best to keep videos as short as possible (no longer than 12 seconds). Videos can be self-hosted by uploading the file to a website server just as you would an image. However, video files tend to be large and can strain or slow down your site. It is more common to host videos on a third party site like Vimeo and embed the code as an Inline or Lightbox player. </p>
             </Essay>
 
             <Essay q='S10.What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
                 <p> Pros: </p>
-                <ol>
+                <ul>
                     <li>Allows for revisits and rewrites to achieve desired result </li>
                     <li>Projects are tested in flight, allowing faster delivery and better project </li>
                     <li>Frequent delivery allows for quick changes in direction while maintaining project goals </li>
-                </ol>
+                </ul>
                 <p> Cons: </p>
                 <ul>
                     <li> No strict schedule </li>
@@ -77,7 +73,17 @@ const Essays = () => {
                     <li> Requires consistent team. Changing team members could result in wasted time and money </li>
                 </ul>
             </Essay>
-                
+            <Essay q= 'S11. What are testing environments? What is the difference between Local, Dev, QA and Production?'>
+            <p> Testing environments are built by setting aside storage, devices, and locations as needed to resemble the intended use of an application. Testing is performed to ensure that the code works properly before it is distributed to users.</p>
+            <p> A local testing environment is a place where you can set up a copy of your website that functions like the real thing. Testing locally allows you to make changes and update only when testing is complete.</p>
+            <p> Development Environment is where application development tasks are done such as designing, programming, and debugging take place. Allows other developers on your team to review your code.</p>
+            <p> Quality Assurance testing assures that your product is the highest quality possible for what you are trying to achieve. QA engineers work on the project as an integral part of the development team, as well as the client project manager, business analyst and developers. QA tases vary from project to project  but generally include: requirements review, test planning, unit testing, integration testing, system testing, performance testing, security testing, cross-browser & cross-platform testing, and regression testing.</p>
+            <p> Testing in production means monitoring the live website.</p>
+            </Essay>
+
+            <Essay q='S12. Function vs. Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?' >
+
+            </Essay>
         </EssaysStyled>
     )
 }

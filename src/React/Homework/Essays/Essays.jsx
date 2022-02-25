@@ -82,7 +82,13 @@ const Essays = () => {
             </Essay>
 
             <Essay q='S12. Function vs. Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?' >
+            <p>When an image is necessary for understanding the content of a website, it should be wrapped in an HTML img tag and include alternate text. This allows visitors to access meaningful content from your website even with text-only browsers or via screen readers for those who are visually impaired. </p>
+            <p>CSS controls the size and positioning of images and other HTML elements relative to one another. You can specify the dimensions of images which can be helpful when you use the same size images on different pages of your site. You can add background images behind HTML elements and control the appearance of elements based on the user’s actions.
+            </p>
+             </Essay >
 
+            <Essay q= 'S13.What is the difference between ID’s Classes, and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)?'>
+                
             </Essay>
         </EssaysStyled>
     )

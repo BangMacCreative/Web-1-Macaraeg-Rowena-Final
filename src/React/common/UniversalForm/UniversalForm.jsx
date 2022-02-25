@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useReducer } from 'react';
 import styled from 'styled-components';
+
+/* Context ---------------------------*/
+import Context from './Context/index.js';
+import reducer from './Context/reducer.js';
 
 /* Components ---------------------------*/
 import Form from './Form.jsx';
 import Feedback from './Feedback.jsx';
+import { ContextProvider } from 'react-is';
 
 /* Exposed Components ---------------------------*/
 export { default as Input} from './Controls/Input.jsx';
@@ -12,13 +17,21 @@ export { default as SubmitButton} from './Controls/SubmitButton.jsx';
 
 const UniversalForm = ({children}) => {
 
+    const defaultFormData = {
+        sample: 'My Sample Data',
+    };
+
+    const [state, dispatch] = useReducer(reducer,defaultFormData);
+
     return (
-        <UniversalFormStyled className='UniversalForm'>
-           <Feedback />
-            <Form>
-                { children }
-            </Form>
-        </UniversalFormStyled>
+        <Context.Provider value= {{state, dispatch}} displayName='Universal Form'>
+            <UniversalFormStyled className='UniversalForm'>
+                <Feedback />
+                <Form>
+                    { children }
+                </Form>
+            </UniversalFormStyled>
+        </Context.Provider>
     );
 }
 

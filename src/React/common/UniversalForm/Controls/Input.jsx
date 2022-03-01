@@ -1,15 +1,41 @@
-import React from 'react';
+import React, { useEffect, useContext } from 'react';
 import styled from 'styled-components';
-import ControlGroup from './ControlGroup/ControlGroup';
 
-const Input = ({label, id, placeholder}) => {
+/* Context ---------------------------*/
+import Context from '../Context/index.js';
+import { addField, updateField } from '../Context/actions.js';
 
+/* Components ---------------------------*/
+import ControlGroup from './ControlGroup/ControlGroup.jsx';
+
+const Input = ({label, id, placeholder, value='', rules=[], type='text'}) => {
+
+    const{ dispatch, state } = useContext(Context);
+
+    const thisField = state.fields.find ((field) => field.id === id);
+
+    /* Componenet did mount ---------------------------*/
+    useEffect(() => {
+        const theField = {
+            id:id,
+            value: value,
+            rules: rules,
+        }
+        dispatch(addField(theField, state));
+    }, []);
+
+    const handleOnChange = (e) => {
+        dispatch(updateField(id, e.target.value, state));
+    }
     return (
         <InputStyled className='Input'>
             <ControlGroup id={ id } label={ label }>
             <input
                     id={ id }
+                    type= { type }
                     placeholder = {placeholder}
+                    value= {thisField ? thisField.value : value }
+                    onChange={ handleOnChange }
                 />
            </ControlGroup>
         </InputStyled>

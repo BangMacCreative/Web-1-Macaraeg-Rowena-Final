@@ -48,7 +48,6 @@ export const updateField = (id, value, state) => {
 }
 
 export const submitForm = (state, dispatch) => {
-    
     // 1. Clone existing state
     let newState = { ...state };
 

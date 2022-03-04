@@ -92,9 +92,35 @@ const Essays = () => {
             </Essay>
 
             <Essay q='S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'>
-            <p>Answer goes here</p>
+            <p>A CSS Preprocessor is a program that lets you generate CSS rules using the preprocessors own unique syntax. CSS preprocessors add features that don’t exist in pure CSS such as variables, loops, if/else statements, nesting selector, inheritance selector, and so on. By using CSS preprocessors, repetitive tasks are easily automated, reusable code snippets can be created and backward compatibility can be ensured.</p>
+            <p>There are many CSS preprocessors available like Sass (Syntactically Awesome Style Sheet), LESS (Learner Style Sheets), Stylus, and many other smaller preprocessors. These have the same functionality but each works differently with their own syntaxes. Each has advanced features unique to them along with different ecosystem for tools, frameworks, and libraries.</p>
+            <p>Styled components is a CSS-in-Javascript styling framework that uses tagged template literals in Javascript and the power of CSS to provide a platform that allows you to write actual CSS to style React components. It removes the mapping between components and styles. This means when when you’re defining your styles, you’re creating a normal React component that has your styles attached to it. Its advantages are:
+                <ul>
+                    <li>automatic CSS for specific React components</li>
+                    <li>no class name bugs</li>
+                    <li>easier editing and deletion of CSS</li>
+                    <li>Simple dynamic styling</li>
+                    <li>No hunting across different files to find styling that affects your components</li>
+                </ul>
+            </p>
+            <p>Separation of concerns means having clear lines between different concepts or pieces of something. Styled components violate separation of concerns by mixing appearance (CSS) with logic (JS) within a React component that ignores separation of concerns by allowing us to write content (HTML) elements in Javascript.</p>
+            </Essay>
+               
+            <Essay q='S15. Final Project: Pick a Subject Matter'>
+                <ul>
+                    <li>Who is the client?</li>
+                    <li>What is the purpose?</li>
+                    <li>Why did you choose this subject?</li>
+                </ul>
             </Essay>
 
+            <Essay q= 'S16. What is the difference between Web Hosts, Domains, and FTP?'>
+                <p>Answer goes here</p>
+            </Essay>
+
+            <Essay q= 'S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'>
+            <p>Answer goes here</p>
+            </Essay>
         </EssaysStyled>
     )
 }

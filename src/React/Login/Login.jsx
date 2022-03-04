@@ -19,17 +19,18 @@ const Login = () => {
             >
                 
                 <Input
+                    type = 'text'
                     label = 'Username'
-                    id='username'
-                    placeholder='user@domain.com'
-                    rules={ ['required', 'email'] }
+                    id = 'username'
+                    placeholder = 'user@domain.com'
+                    rules = { ['required', 'email'] }
                 />
 
                  <Input
                     label = 'Password'
-                    id='password'
-                    type='password'
-                    rules={ ['required']}
+                    id = 'password'
+                    type = 'password'
+                    rules = { ['required']}
                 />
 
                 <SubmitButton> Log In </SubmitButton>

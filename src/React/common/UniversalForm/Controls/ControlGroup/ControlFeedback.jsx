@@ -22,7 +22,7 @@ const ControlFeedback = ({id}) => {
                 }
                
                
-            </ul>>
+            </ul>
         </ControlFeedbackStyled>
     );
 }

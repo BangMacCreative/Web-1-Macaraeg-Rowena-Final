@@ -28,6 +28,7 @@ const Login = () => {
                  <Input
                     label = 'Password'
                     id='password'
+                    type='password'
                     rules={ ['required']}
                 />
 

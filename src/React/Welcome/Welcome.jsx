@@ -12,8 +12,8 @@ const Welcome = () => {
         <WelcomeStyled className='Welcome'>
             <h1>Welcome </h1>
             <Slideshow/>
-            <Tabbed />
-            <Staff />
+            <Tabbed/>
+            <Staff/>
         </WelcomeStyled>
     );
 }

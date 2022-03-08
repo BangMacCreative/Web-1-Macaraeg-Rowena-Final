@@ -19,7 +19,7 @@ const Slideshow = () => {
                         return <Slide key = { idx } slide = {slide} />
                     })
             }
-            </Carousel>>
+            </Carousel>
         </SlideshowStyled>
     );
 }

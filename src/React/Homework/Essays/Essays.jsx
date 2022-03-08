@@ -108,9 +108,9 @@ const Essays = () => {
                
             <Essay q='S15. Final Project: Pick a Subject Matter'>
                 <ul>
-                    <li>Who is the client?</li>
-                    <li>What is the purpose?</li>
-                    <li>Why did you choose this subject?</li>
+                    <li>Who is the client? The client is RipBang Studios, a design firm that I co-founded which specializes in Environmental Graphics.</li>
+                    <li>What is the purpose? The purpose of the site is to showcase the firm’s design services and project types.</li>
+                    <li>Why did you choose this subject? I chose this subject because I have a library of image assets and content that I can use. Using this as a project will also allow me to continue to build my skills in web development as I continue to edit, customize, and update the site.</li>
                 </ul>
             </Essay>
 

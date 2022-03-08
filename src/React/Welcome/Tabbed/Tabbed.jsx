@@ -13,7 +13,6 @@ const Tabbed = () => {
     
     return (
         <TabbedStyled className='Tabbed'>
-            Tabbed 
             <TabbedMenu chosenTab={ chosenTab } chosenTabUpdate={ chosenTabUpdate} tabbedData={ tabbedData }/>
             <Content chosenTab={ chosenTab } />
         </TabbedStyled>

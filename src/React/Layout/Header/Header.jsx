@@ -17,10 +17,10 @@ const Header = () => {
 export default Header;
 
 const HeaderStyled = styled.header`
-    background-color: teal;
+    background-color: #2d2620;
     padding: 20px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     
     .row {
         display: flex;

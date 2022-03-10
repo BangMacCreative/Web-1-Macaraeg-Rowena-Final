@@ -1,32 +1,26 @@
 export const slidesData = [
     {
-        url: "https://apple.com/",
         image: '/assets/img/Slideshow/slide-1.jpg',
-        title: 'Apple',
+        title: 'Confidential Technology Client',
     },
     {
-        url: "https://google.com/",
         image: '/assets/img/Slideshow/slide-2.jpg',
-        title: 'Google',
+        title: 'Algorithms in Nature',
     },
     {
-        url: "https://www.w3schools.com/react/default.asp",
         image: '/assets/img/Slideshow/slide-3.jpg',
-        title: 'W3 Schools',
+        title: 'Butterfly Macro',
     },
     {
-        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         image: '/assets/img/Slideshow/slide-4.jpg',
-        title: 'MDN Docs',
+        title: 'Feathers',
     },
     {
-        url: "https://heroku.com/",
         image: '/assets/img/Slideshow/slide-5.jpg',
-        title: 'Heroku',
+        title: 'Chameleon Macro',
     },
     {
-        url: "https://reactjs.org/docs/getting-started.html",
         image: '/assets/img/Slideshow/slide-6.jpg',
-        title: 'React Documentation',
+        title: 'Digital Flower',
     },
 ]

@@ -10,9 +10,7 @@ import {
 const SiteLogo = () => {
 
     return (
-        <SiteLogoStyled className='SiteLogo'>
-        <FontAwesomeIcon icon={ faHotTub } className='hot-tub-icon' />
-        </SiteLogoStyled>
+        <img src="" alt="" />
     );
 }
 

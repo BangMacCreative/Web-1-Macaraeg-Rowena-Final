@@ -38,5 +38,5 @@ const Main = () => {
 export default Main;
 
 const MainStyled = styled.main`
-   
+   background-color: #e9e4d5;
 `;

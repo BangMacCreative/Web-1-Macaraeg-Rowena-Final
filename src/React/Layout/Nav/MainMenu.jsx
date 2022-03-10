@@ -13,7 +13,7 @@ const MainMenu = ({showMenuUpdate}) => {
 
     return (
         <MainMenuStyled className='MainMenu'>
-            <NavLink onClick={ clickHandler } to={'/'} exact>Home</NavLink>
+            <NavLink onClick={ clickHandler } to={'/'} exact>Welcome</NavLink>
             <NavLink onClick={ clickHandler } to={'/services'}>Services</NavLink>
             <NavLink onClick={ clickHandler } to={'/gallery'}>Gallery</NavLink>
             <NavLink onClick={ clickHandler } to={'/contact'}>Contact</NavLink>
@@ -30,9 +30,9 @@ const MainMenuStyled = styled.div`
     
     a{
         display: block;
-        color: white;
+        color: #f3f0e7;
         margin: 5px 0px;
-        background-color: #007373;
+        background-color: #2d2620;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
@@ -44,17 +44,17 @@ const MainMenuStyled = styled.div`
         font-weight: bold;
 
         &:hover {
-            background-color: #038484;
+            background-color: #423e3a;
         }
         &.active {
-            color: #007373;
-            background-color: #AEE6E6;
+            color: #2d2620;
+            background-color: #e9e4d5;
         }
     
     }
    @media ${defaultMediaQueries.mdUp}  {
       display: flex;
-        justify-content: center;
+        justify-content: right;
         a{
         display: inline-block;
         width: 150px;

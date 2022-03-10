@@ -13,6 +13,15 @@ const Contact = () => {
     return (
         <ContactStyled className='Contact'>
             <h1>Contact </h1>
+            <h4>Office Phone: 310.295.1076</h4>
+            <div className='founder-contact'>
+                <h4>Rowena Macaraeg</h4>
+                <h5>ro@bangmac.com</h5> 
+            </div>
+            <div className='founder-contact'>
+                <h4>Bob Bangham</h4>
+                <h5>bob@bangmac.com</h5>
+            </div>
             <UniversalForm
                 apiUrl='/email/send'
                 onSubmit={ onSubmitHandler }
@@ -44,5 +53,5 @@ const Contact = () => {
 export default Contact;
 
 const ContactStyled = styled.div`
-    
+
 `;

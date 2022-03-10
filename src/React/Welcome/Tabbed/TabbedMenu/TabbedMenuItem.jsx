@@ -18,8 +18,8 @@ const TabbedMenuItem = ({ item, chosenTab, chosenTabUpdate}) => {
 export default TabbedMenuItem;
 
 const TabbedMenuItemStyled = styled.div`
-    background-color: #242e33;
-    color: #17b1b1;
+    background-color: #423e3a;
+    color: #e9e4d5;
     width: 150px;
     text-align: center;
     cursor: pointer;
@@ -28,7 +28,7 @@ const TabbedMenuItemStyled = styled.div`
     margin-right: 5px;
 
     &.selected {
-        background-color: teal;
+        background-color: #666164;
         color: white;
     }
 `;

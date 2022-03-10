@@ -11,9 +11,9 @@ const Welcome = () => {
     return (
         <WelcomeStyled className='Welcome'>
             <Slideshow/>
-            <h1>About</h1>
-            <h1>Portfolio </h1>
+            <h1>Projects </h1>
             <Tabbed/>
+            <h1>About</h1>
             <Staff/>
         </WelcomeStyled>
     );

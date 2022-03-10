@@ -21,10 +21,10 @@ export default Content;
 const ContentStyled = styled.div`
     display: flex;
     padding: 20px;
-    background-color: grey;
+    background-color: #696566;
 
     .left {
-        flex: 1;
+        flex: 5;
         img {
                 width: 100%
         }

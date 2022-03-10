@@ -6,7 +6,8 @@ import { artData } from './artData.js';
 
 /* Components ---------------------------*/
 import ArtGallery from './ArtGallery/ArtGallery.jsx';
-import GalleryMenu from './Gallery Menu/GalleryMenu.jsx'
+import GalleryMenu from './GalleryMenu/GalleryMenu.jsx'
+import GalleryMenuItem from './GalleryMenu/GalleryMenuItem.jsx';
 
 const Gallery = () => {
 
@@ -16,6 +17,7 @@ const Gallery = () => {
     return (
         <GalleryStyled className='Gallery'>
             <h1>Gallery</h1>
+            <GalleryMenuItem/>
             <GalleryMenu categories={ artData.categories } chosenCategory={ chosenCategory} chosenCategoryUpdate={chosenCategoryUpdate}/>
             <ArtGallery art={ artData.art } chosenCategory={chosenCategory}/>
         </GalleryStyled>

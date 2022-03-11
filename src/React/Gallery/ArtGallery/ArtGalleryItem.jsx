@@ -8,41 +8,37 @@ import Lightbox from 'React/common/Lightbox/Lightbox.jsx';
 
 const ArtGalleryItem = ({art}) => {
 
-    return (
-        <>
-            <img src={ art.image } alt={ art.title } />
-            <h3>{ art.title } :: { art.category }</h3>
+    const ActiveContent = () => {
+        return (
+            <>
+                <img src={ art.image } alt={ art.title } />
+                <h3>{ art.title } :: { art.category }</h3>
             </>
-    );
-}
+        );
+    }
 
-const ModalContent = ()=> {
+    const ModalContent = () => {
+        return (
+            <>
+                <img src={ art.image } alt={ art.title } />
+                
+                <ul>
+                    <li><b>Category:</b> { art.category }</li>
+                </ul>
+                <p>{ art.description }</p>
+            </>
+        );
+    }
+
     return (
-        <>
-            <img src={ art.image } alt={ art.title } />
-            
-            <ul>
-                <li><b>Category:</b> { art.category }</li>
-            </ul>
-            <p>{ art.description }</p>
-            
-
-
-        </>
-       
+        <ArtGalleryItemStyled className='ArtGalleryItem'>
+            <Lightbox
+                title={art.title}
+                activeContent={ <ActiveContent /> }
+                modalContent={ <ModalContent /> }
+            />
+        </ArtGalleryItemStyled>
     );
-}
-
-return(
-<ArtGalleryItemStyled className='ArtGalleryItem'>
-    <Lightbox
-        title={art.title}
-        activeContent={ <ActiveContent /> }
-        modalContent={ <ModalContent /> }
-    />
-
-</ArtGalleryItemStyled>
-);
 }
 
 export default ArtGalleryItem;
@@ -68,7 +64,7 @@ const ArtGalleryItemStyled = styled.div`
 
 
         h3{
-        background-color: rgba(0, 128, 128, 0.715);
+        background-color: rgba(105, 101, 102, 0.85);
         margin: 0px;
         padding: 10px;
 

@@ -20,17 +20,18 @@ export default GalleryMenuItem;
 const GalleryMenuItemStyled = styled.div`
     width: 150px;
     font-size: 18px;
-    border-bottom: solid 5px teal;
+    background-color: #f3f0e7;
     line-height: 40px;
     text-align: center;
     margin: 5px;
     cursor: pointer;
 
     &:hover {
-        background-color: #eeeeee;
+        background-color: #696566;
+        color: white;
     }
     &.active {
-        background-color: teal;
+        background-color: #2d2620;
         color: white;
     }
 `;

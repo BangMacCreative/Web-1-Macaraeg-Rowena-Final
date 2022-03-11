@@ -5,14 +5,16 @@ import ArtGalleryItem from './ArtGalleryItem.jsx';
 
 const ArtGallery = ({art, chosenCategory}) => {
 
+    console.log('art, chosenCategory', art, chosenCategory);
+
     return (
         <ArtGalleryStyled className='ArtGallery'>
             {
                art
-               .filter ((art) => {
-                   return (chosenCategory === 'All' || art.category === chosenCategory);
-               })
-               .map((art, idx) => {
+                .filter ((art) => {
+                    return (chosenCategory === 'All' || art.category === chosenCategory);
+                })
+                .map((art, idx) => {
                     return <ArtGalleryItem key={ idx } art={ art }/>
                 })
             }

@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Homework from '../Homework/Homework.jsx';
 import Welcome from '../Welcome/Welcome.jsx'; 
 import Services from '../Services/Services.jsx'; 
+import Gallery from 'React/Gallery/Gallery.jsx';
 import Contact from '../Contact/Contact.jsx';
 import Login from '../Login/Login.jsx';  
 
@@ -15,10 +16,13 @@ const Main = () => {
              <div className='inset'>
                 <Switch>
                     <Route path='/' exact>
-                    <Welcome />
+                        <Welcome />
                     </Route>
                     <Route path='/services'>
                         <Services />
+                    </Route>
+                    <Route path='/gallery'>
+                        <Gallery />
                     </Route>
                     <Route path='/contact'>
                         <Contact />
@@ -28,8 +32,8 @@ const Main = () => {
                     </Route>
                     <Route path='/homework'>
                         <Homework />
-                </Route>
-            </Switch>
+                    </Route>
+                </Switch>
             </div>
         </MainStyled>
     );

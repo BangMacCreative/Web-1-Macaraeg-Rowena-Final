@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const SiteLogo = () => {
 
     return (
-        <img src='/RB Logo.png' alt="Ripbang Logo" />
+        <img src="./ RB Logo.png" alt="Ripbang Logo" />
     );
 }
 

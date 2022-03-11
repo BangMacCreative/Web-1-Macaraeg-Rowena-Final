@@ -115,7 +115,11 @@ const Essays = () => {
             </Essay>
 
             <Essay q= 'S16. What is the difference between Web Hosts, Domains, and FTP?'>
-                <p>Answer goes here</p>
+                <ul>
+                    <li>A web host is a business that provides the equipment and services needed so that your site or application can be viewed on the internet.</li>
+                    <li>A domain is the address people type into a browser in order to reach a site. Domains are a human-friendly way to access the IP address for a website and much easier to remember than a string of numbers.</li>
+                    <li>FTP (File Transfer Protocol) is used to transfer files between computers over the internet. Users who have been granted access can receive and transfer files in the FTP server or FTP site. There are 3 ways to establish an FTP connection: by using a commend-line FTP in terminal, thru a web browser, or the most common way thru an FTP client.</li>
+                </ul>
             </Essay>
 
             <Essay q= 'S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'>

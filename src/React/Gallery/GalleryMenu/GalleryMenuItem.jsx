@@ -31,6 +31,6 @@ const GalleryMenuItemStyled = styled.div`
     }
     &.active {
         background-color: teal;
-        color; white;
+        color: white;
     }
 `;

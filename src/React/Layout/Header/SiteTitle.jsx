@@ -5,7 +5,7 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled  className='SiteTitle'>
-            <h3> Art for Built Environments </h3> 
+            <h3> custom art for built environments </h3> 
         </SiteTitleStyled >
     );
 }
@@ -14,7 +14,9 @@ export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
         color: white;
-        text-align: right;
+        display: flex;
+        text-align: left;
+    
 
         h2{
             margin:0px;

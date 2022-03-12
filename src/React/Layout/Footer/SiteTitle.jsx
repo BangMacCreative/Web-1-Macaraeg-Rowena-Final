@@ -5,7 +5,7 @@ const SiteTitled = () => {
 
     return (
         <SiteTitledStyled className='SiteTitled'>
-            <h2>Art for Built Environments</h2>
+        
             <div className="copyright">&copy; 2022. All rights reserved.</div>
         </SiteTitledStyled>
     );

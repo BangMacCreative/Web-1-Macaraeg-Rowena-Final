@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Slideshow from './Slideshow/Slideshow.jsx';
 import Tabbed from './Tabbed/Tabbed.jsx';
 import  Staff from './Staff/Staff.jsx';
+import About from './About/About.jsx';
 
 
 const Welcome = () => {
@@ -11,10 +12,8 @@ const Welcome = () => {
     return (
         <WelcomeStyled className='Welcome'>
             <Slideshow/>
-            <h1>Projects </h1>
+            <About/>
             <Tabbed/>
-            <h1>About</h1>
-            <Staff/>
         </WelcomeStyled>
     );
 }

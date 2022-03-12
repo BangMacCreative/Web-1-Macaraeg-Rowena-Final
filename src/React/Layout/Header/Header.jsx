@@ -24,19 +24,18 @@ const HeaderStyled = styled.header`
     
     .row {
         display: flex;
-        width: 420px;
-        align-items: flex-end;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
 
         .Logo {
-            flex: 1;
-            padding-right: 20px;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            padding-left: 30px;
+            
         }
         .SiteTitle {
-            flex 3;
-            justify-content: flex-end;
+            display: flex;
+            padding-right: 30px;
+            
         }
     }
 `;

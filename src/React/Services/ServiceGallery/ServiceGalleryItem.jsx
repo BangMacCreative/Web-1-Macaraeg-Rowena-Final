@@ -61,7 +61,7 @@ const ServiceGalleryItemStyled = styled.div`
     }
 
     @media ${defaultMediaQueries.lgUp} {
-        width: 25%;
+        width: 50%;
         padding: 5px;
     
     .ActiveArea {

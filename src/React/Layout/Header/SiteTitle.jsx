@@ -5,7 +5,9 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled  className='SiteTitle'>
-            <h3> custom art for built environments </h3> 
+           <div id='container'>
+               <h3 className='tagline'> built experience design </h3>
+           </div>  
         </SiteTitleStyled >
     );
 }
@@ -13,18 +15,19 @@ const SiteTitle = () => {
 export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
-        color: white;
+    #container{
+        width: 200px;
+        height: 60px;
+        background-color: #2d2620;
         display: flex;
-        text-align: left;
-    
+        justify-content: center;
+        margin-right: 30px;
+        
+        .tagline{
+            color: #f3f0e7;
+            font-size: 20px;
+            display: flex;
+        }
+    }
 
-        h2{
-            margin:0px;
-            font-size:40px;
-        }
-        h3{
-            margin 0px;
-            font-size: 20px
-        }
-    
 `;

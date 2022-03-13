@@ -26,7 +26,8 @@ const MainMenu = ({showMenuUpdate}) => {
 export default MainMenu;
 
 const MainMenuStyled = styled.div`
-    
+    display: flex;
+    justify-content: center;
     
     a{
         display: block;
@@ -52,9 +53,8 @@ const MainMenuStyled = styled.div`
         }
     
     }
-   @media ${defaultMediaQueries.mdUp}  {
-      display: flex;
-        justify-content: right;
+ 
+    @media ${defaultMediaQueries.mdUp}  {
         a{
         display: inline-block;
         width: 150px;

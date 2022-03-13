@@ -25,5 +25,5 @@ const TabbedMenu = ({ chosenTab, chosenTabUpdate, tabbedData }) => {
 export default TabbedMenu;
 
 const TabbedMenuStyled = styled.div`
-  display: flex;  
+    display: flex;  
 `;

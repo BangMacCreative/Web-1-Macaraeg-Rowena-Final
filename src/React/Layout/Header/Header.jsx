@@ -19,23 +19,16 @@ export default Header;
 const HeaderStyled = styled.header`
     background-color: #2d2620;
     padding: 20px 0px;
-    display: flex;
-    justify-content: left;
     
     .row {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-
+       display: flex;
+       align-items: flex-end;
         .Logo {
             padding-left: 30px;
-            
         }
+
         .SiteTitle {
-            display: flex;
-            padding-right: 30px;
-            
+    
         }
     }
 `;

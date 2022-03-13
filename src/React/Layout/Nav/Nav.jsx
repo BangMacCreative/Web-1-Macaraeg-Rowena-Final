@@ -35,7 +35,7 @@ export default Nav;
 
 const NavStyled = styled.nav`
 background-color: #2d2620;
-padding: 20px;
+padding-bottom: 20px;
 color: white;
 
 `;

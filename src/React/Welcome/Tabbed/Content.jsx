@@ -5,13 +5,20 @@ const Content = ({ chosenTab }) => {
 
     return (
         <ContentStyled className='Content'>
-        <div className="left">
+        <div className="hero">
             <img src={ chosenTab.image } alt={ chosenTab.title }/>
         </div>
-        <div className="right">
+        <div className="story">
             <h3>{ chosenTab.title }</h3>
             <div dangerouslySetInnerHTML= { { __html:chosenTab.text }} />   
         </div>
+        <div classname="built">
+            <img src= { chosenTab.install_1} alt={chosenTab.caption_1} /> 
+            <p>{ chosenTab.caption_1 }</p>  
+            <img src= { chosenTab.install_2} alt={chosenTab.caption_2} /> 
+            <p>{ chosenTab.caption_2 }</p>  
+        </div>
+       
         </ContentStyled>
     );
 }
@@ -19,20 +26,26 @@ const Content = ({ chosenTab }) => {
 export default Content;
 
 const ContentStyled = styled.div`
-    display: flex;
-    padding: 20px;
+    display: block;
     background-color: #696566;
+    padding: 20px;
 
-    .left {
-        flex: 5;
+    .hero {
         img {
-                width: 100%
+            width: 100%
         }
 
     }
-    .right {
-        flex: 3;
-        margin-left: 20px;
+    .story {
+        margin: 10px;
+    }
+    .built{
+        img{
+            width: 100%
+        }
+        display: block;
+    
+
     }
     
 `;

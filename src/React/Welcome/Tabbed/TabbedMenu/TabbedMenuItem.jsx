@@ -20,7 +20,7 @@ export default TabbedMenuItem;
 const TabbedMenuItemStyled = styled.div`
     background-color: #423e3a;
     color: #e9e4d5;
-    width: 150px;
+    width: 300px;
     text-align: center;
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;

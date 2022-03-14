@@ -7,18 +7,20 @@ const Content = ({ chosenTab }) => {
         <ContentStyled className='Content'>
         <div className="hero">
             <img src={ chosenTab.image } alt={ chosenTab.title }/>
-        </div>
+        
         <div className="story">
             <h3>{ chosenTab.title }</h3>
             <div dangerouslySetInnerHTML= { { __html:chosenTab.text }} />   
         </div>
         <div classname="built">
             <img src= { chosenTab.install_1} alt={chosenTab.caption_1} /> 
-            <p>{ chosenTab.caption_1 }</p>  
+            <p classname="caption">{ chosenTab.caption_1 }</p>  
             <img src= { chosenTab.install_2} alt={chosenTab.caption_2} /> 
-            <p>{ chosenTab.caption_2 }</p>  
+            <p classname="caption">{ chosenTab.caption_2 }</p>
+            <img src= { chosenTab.install_3} alt={chosenTab.caption_3} /> 
+            <p classname="caption">{ chosenTab.caption_3 }</p>  
         </div>
-       
+        </div>
         </ContentStyled>
     );
 }
@@ -27,25 +29,20 @@ export default Content;
 
 const ContentStyled = styled.div`
     display: block;
-    background-color: #696566;
-    padding: 20px;
+    background-color: #e9e4d5;
 
-    .hero {
+    .hero {    
         img {
             width: 100%
         }
-
+    
     }
     .story {
         margin: 10px;
     }
-    .built{
-        img{
-            width: 100%
-        }
-        display: block;
-    
 
+   .built{       
+        text-align: center;
     }
-    
+
 `;

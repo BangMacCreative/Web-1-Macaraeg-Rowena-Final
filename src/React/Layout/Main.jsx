@@ -7,7 +7,8 @@ import Welcome from '../Welcome/Welcome.jsx';
 import Services from '../Services/Services.jsx'; 
 import Gallery from 'React/Gallery/Gallery.jsx';
 import Contact from '../Contact/Contact.jsx';
-import Login from '../Login/Login.jsx';  
+import Login from '../Login/Login.jsx';
+import Video from 'React/Videos/video.jsx';  
 
 const Main = () => {
 
@@ -29,6 +30,9 @@ const Main = () => {
                     </Route>
                     <Route path='/login'>
                         <Login />
+                    </Route>
+                    <Route path='/video'>
+                        <Video/>
                     </Route>
                     <Route path='/homework'>
                         <Homework />

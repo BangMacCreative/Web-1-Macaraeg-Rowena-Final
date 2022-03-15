@@ -19,7 +19,7 @@ const SubmitButtonStyled = styled.div`
     text-align: right;
     
     button {
-        background-color: teal;
+        background-color: #4650d0;
         color: #fff;
         padding: 10px 20px;
         border-radius: 5px;

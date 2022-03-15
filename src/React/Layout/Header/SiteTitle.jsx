@@ -16,17 +16,16 @@ export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
     #container{
-        width: 200px;
+        width: 260px;
         height: 60px;
-        background-color: #2d2620;
+        margin-right: 25px;
         display: flex;
-        justify-content: center;
-        margin-right: 30px;
+        justify-content: flex-start;
         
         .tagline{
-            color: #f3f0e7;
-            font-size: 20px;
-            display: flex;
+            color: white;
+            font-size: 25px;
+        
         }
     }
 

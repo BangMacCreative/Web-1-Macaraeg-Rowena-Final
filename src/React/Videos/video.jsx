@@ -6,7 +6,11 @@ const Video = () => {
 
     return (
         <div className='Frame'><VideoStyled>
-           <ReactPlayer url='https://www.youtube.com/watch?v=cTmE8plRCiM'/>
+           <ReactPlayer 
+                url='https://www.youtube.com/watch?v=cTmE8plRCiM'
+                width={ '100%' }
+                height={ '600px' }
+            />
         </VideoStyled>
         </div>
     );
@@ -15,5 +19,7 @@ const Video = () => {
 export default Video;
 
 const VideoStyled = styled.div`
+display: flex;
+justify-content: center;
 
 `;

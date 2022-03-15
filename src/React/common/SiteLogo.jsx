@@ -14,7 +14,6 @@ const SiteLogo = () => {
 export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
-    color: white;
     width: 100%;
     height: 100%;
 

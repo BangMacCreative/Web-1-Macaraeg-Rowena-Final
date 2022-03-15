@@ -21,7 +21,9 @@ const About = () => {
 export default About;
 
 const AboutStyled = styled.div`
-.intro{
-    color: magenta;
-}
+text-align: center;
+font-size: 18px;
+margin: 25px;
+color: #2d2620;
+line-height: 37px;
 `;

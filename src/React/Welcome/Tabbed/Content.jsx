@@ -21,8 +21,9 @@ const Content = ({ chosenTab }) => {
                 <p className="caption">{ chosenTab.caption_3 }</p>  
             </div>
         </div>
-
+        <div className='back-button'>
         <a href="/#">Back to Top</a>
+        </div>
         </ContentStyled>
     );
 }
@@ -39,7 +40,7 @@ const ContentStyled = styled.div`
         }
 
         .caption {
-            text-align: center;
+            text-align: left;
         }
     
     }
@@ -47,7 +48,7 @@ const ContentStyled = styled.div`
         margin: 10px;
     }
 
-   .built{       
+   .back-button{       
         text-align: center;
     }
 

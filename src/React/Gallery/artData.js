@@ -9,7 +9,7 @@ export const artData = {
         { id: 5, image: '/assets/img/Gallery/art-5.jpg', title: 'Traitorous 8', category: 'Technology', description:'Description of this piece'},
         { id: 6, image: '/assets/img/Gallery/art-6.jpg', title: 'IBM RAMAC', category: 'Technology', description:'Description of this piece'},
         { id: 7, image: '/assets/img/Gallery/art-7.jpg', title: 'We owe it all to the Hippies', category: 'Nature', description:'Description of this piece'},
-        { id: 8, image: '/assets/img/Gallery/art-8.jpg', title: 'Flower Power', category: 'Nature', description:'Description of this piece'},
+        { id: 8, image: '/assets/img/Animations/Bloom.gif', title: 'Flower Power', category: 'Nature', description:'Description of this piece'},
         { id: 9, image: '/assets/img/Gallery/art-9.jpg', title: 'Summer of Love', category: 'Nature', description:'Description of this piece'},
         { id: 10, image: '/assets/img/Gallery/art-10.jpg', title: 'Algorythms in Nature', category: 'Nature', description:'Description of this piece'},
         { id: 11, image: '/assets/img/Gallery/art-11.jpg', title: 'Feathers', category: 'Nature', description:'Description of this piece'},
@@ -20,5 +20,7 @@ export const artData = {
         { id: 16, image: '/assets/img/Gallery/art-16.jpg', title: 'Wave 1', category: 'Nature', description:'Description of this piece'},
         { id: 17, image: '/assets/img/Gallery/art-17.jpg', title: 'Wave 2', category: 'Nature', description:'Description of this piece'},
         { id: 18, image: '/assets/img/Gallery/art-18.jpg', title: 'Nautilus', category: 'Nature', description:'Description of this piece'},
+        { id: 19, image: '/assets/img/Animations/Spring.gif', title: 'Haight Ashbury', category: 'Nature', description:'Description of this piece'},
+        { id: 20, image: '/assets/img/Animations/Roses.gif', title: 'Old Pasadena', category: 'Nature', description:'Description of this piece'},
     ],
 }
